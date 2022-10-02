@@ -1,8 +1,10 @@
+import streamlit as st
 from itertools import product
 from random import choice
 import pandas as pd
 import matplotlib.pyplot as plt
 
+st.title('Aaa')
 genders = ['m', 'f']
 days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 combos = list(product(genders, days))
